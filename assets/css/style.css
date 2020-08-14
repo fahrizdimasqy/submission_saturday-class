@@ -211,6 +211,10 @@ header img.profile {
     margin-bottom: 60px;
 }
 
+.about-part a {
+    text-decoration: none;
+}
+
 .about-part .btn-primary {
     cursor: pointer;
     color: #fff;
@@ -578,5 +582,14 @@ select {
     .navbar ul.slide {
         opacity: 0;
         transform: translateX(100%);
+    }
+
+    .contact input[type=text],
+    select {
+        width: 100%;
+    }
+
+    .contact .button-container {
+        width: 100%;
     }
 }
